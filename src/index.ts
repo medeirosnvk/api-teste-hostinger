@@ -3,8 +3,8 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  console.log("Hello World teste dois");
-  res.send("Hello World teste dois");
+  console.log("Hello World teste Thomas");
+  res.send("Hello World teste Thomas");
 });
 
 app.listen(3000, () => {
